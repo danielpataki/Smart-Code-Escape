@@ -1,3 +1,5 @@
-# ChangeLog
+# 1.0.1
+- Added smaller icon
 
-* (6 December 2014). First version
+# 1.0
+- First Version
