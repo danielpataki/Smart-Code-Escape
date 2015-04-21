@@ -1,10 +1,12 @@
-# Smart Code Escampe
+# Smart Code Escape WordPress Plugin
+
+A plugin that enables you to write code more easily in the WordPress editor by escaping it in the front-end but leaving it in-tact in the back-end.
+
+## Description
 
 A tiny plugin for WordPress which converts greater than signs, smaller than signs and ampersands to html entities within pre tags. It supports semantic syntax you would use when using the Prism highlighter for example. If a code tag sits immediately within a pre tag it will not be escaped.
 
 Code is escaped before it is displayed which gives you easy editing access in the backend as you will always see the unescaped version.
-
-## Usage
 
 Just write your code and forget anything else :) You can write code in two ways:
 
@@ -20,13 +22,17 @@ In the second example the code tag will not be escaped, leading to semantically 
 <pre><code class="language-php">&lt;strong&gt;somecode&lt;/strong&gt;&lt;/pre&gt;</code></pre>
 ```
 
-## Installation
+#### Useful Links
 
-Since this a WordPress plugin just search for "Smart Code Escape" in the plugins section in the admin and install it from there. If you would rather use this repository the easiest way is to use the trunk directory:
+This Github repository is for the development of this plugin. If you would like to read installation and in-depth usage instructions you might want to look at the WordPress plugin page instead.
 
-1. Download this whole repository
-2. Rename the trunk directory within the smart-code-escape directory to smart-code-escape
-3. Copy the smart-code-escape/smart-code-escape directory into your WordPress plugins directory
-4. Go to your WordPress admin and activate the plugin.
+* [Plugin Page](https://wordpress.org/plugins/smart-code-escape/)
+* [SVN Repository](http://plugins.svn.wordpress.org/smart-code-escape/)
 
-For advanced use you can use a symbolic link that points to the trunk directory within the repository. Download the whole repository anywhere and create symbolic link between the `trunk` directory and the plugin. For example: `ln -s smart-code-escape/trunk /path/to/wordpress/wp-content/plugins/smart-code-escape`
+
+# Want To Help?
+
+If you like the plugin and you like helping others out there are a few things you can do:
+
+* **[Review the plugin](https://wordpress.org/support/view/plugin-reviews/smart-code-escape)**
+* **[Tip me on Gratipay](https://gratipay.com/danielpataki/)**

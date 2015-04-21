@@ -8,7 +8,8 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A smart code escaper plugin that converts greater than, smaller than and ampersands to html entities within pre tags.
+..,,
+
 
 == Description ==
 
