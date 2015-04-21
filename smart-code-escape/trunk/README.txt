@@ -8,8 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-..,,
-
+A tiny plugin for WordPress which converts greater than signs, smaller than signs and ampersands to html entities within pre tags.
 
 == Description ==
 
