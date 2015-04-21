@@ -50,5 +50,11 @@ Nothing to upgrade just yet!
 
 == Changelog ==
 
+= 1.1.0 (2015-04-20) =
+* WordPress 4.2 compatibility check
+
+= 1.0.1 =
+* Added Smaller Icon
+
 = 1.0 =
 * Initial version

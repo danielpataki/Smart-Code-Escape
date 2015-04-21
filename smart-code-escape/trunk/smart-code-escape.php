@@ -6,7 +6,7 @@
 entities within pre tags before they are output on the page. You will always see the
 non-escaped version in the editor, making code easy to modify. It Will not convert code
 tags directly within pre tags to support Prism-style highlighting.
- * Version: 1.0.0
+ * Version: 1.1
  * Author: Daniel Pataki
  * Author URI: http://danielpataki.com
  * License: GPL v2
@@ -20,6 +20,8 @@ tags directly within pre tags to support Prism-style highlighting.
  *
  * @param array $data The matched content from the preg replace
  * @return string The escaped string
+ * @author Daniel Pataki
+ * @since 1.0.0
  *
  */
 function smart_code_escape_pre( $data ) {
@@ -33,17 +35,19 @@ function smart_code_escape_pre( $data ) {
 }
 
 
+
+add_filter( 'the_content', 'smart_code_escape_content', 9 );
 /* Escape Content
  *
  * This filter is hooked into the_content and initiates the escaping logic
  *
  * @param string $content The original post content
  * @return string The escaped post content
+ * @author Daniel Pataki
+ * @since 1.0.0
  *
  */
 function smart_code_escape_content( $content ) {
 	$content = preg_replace_callback('@(<pre.*>)(.*)(<\/pre>)@isU', 'smart_code_escape_pre', $content );
 	return $content;
 }
-
-add_filter( 'the_content', 'smart_code_escape_content', 9 );
