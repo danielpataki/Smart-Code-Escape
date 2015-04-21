@@ -3,7 +3,7 @@ Contributors: danielpataki
 Donate link: https://gratipay.com/danielpataki/
 Tags: content, code, escaping
 Requires at least: 1.2.1
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
