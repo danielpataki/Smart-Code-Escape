@@ -8,6 +8,7 @@ Twitter: danielpataki
 
 Name: WordPress
 Website: http://wordpress.org
+For: Making WordPress
 
 /* META */
 Updated: 2015/04/22
